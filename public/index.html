@@ -2,15 +2,17 @@
 <html>
 <head>
   <title>My Page Title</title>
+>
   <!--Compiled and minified CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!--jQuery CDN-->
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <!--Compiled and minified JavaScript-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="/css/project.css">
+    <link rel="stylesheet" href="css/project.css">
 </head>
-<body class="bodycolor">
+<body>
+  <div class="container pp">
   <header>
 <h1>Bloomington Bookstore</h1>
   </header>
@@ -35,20 +37,30 @@
             	<li>
             	    <a href = UserInformation.html > User Information </a>
             	</li>
-            	<li class="dropdown">
-            		<a href="BookList.html" class="dropdown-toggle" data-toggle ="dropdown">
-            		Book Collection <span class= "caret"> </span> </a>
-            		<ul class="dropdown-menu">
-            			<li>
-            				<a href = Fiction.html > Fiction </a>
+              <li>
+            	    <a href = BookList.html > Book Collection </a>
+            	</li>
 
-            			</li>
-            			<li>
-            				<a href ="NonFiction.html"> NonFiction </a>
-            			</li>
-            		</ul>
         </div>
        </nav>
-<p>Your content goes here.</p>
+<p>
+  <h3> About Us </h3>
+  <p>
+      <img src="images/bookstore.jpg" class="centers1">
+  </p>
+  Enter Book Title
+  <form class="Search" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit" ><i class="glyphicon glyphicon-search"></i></button>
+</form>
+<h4> Our New Bestsellers</h4>
+
+<img src="images/bestsellers.jpg" class="centers1">
+ <h4> Becoming Michelle Obama </h4><br>
+ <h4>
+  </div>
+
+</p>
+</div>
 </body>
 </html>
