@@ -9,14 +9,19 @@ a:hover {
 .title {
 
            background-color: darkgrey;
+           font-family: 'Titillium Web', sans-serif;
            font-weight: bold;
            color: black;
-           font-size: 200%;
+           font-size: 36px;
            margin: 10px;
+           line-height: 40px;
+           padding: 5px 5px 5px 5%;
            text-align: left
 
 
        }
+
+       
 
 .formbutton {
   float: left;
@@ -49,19 +54,32 @@ a:hover {
                 margin-left: auto;
                 margin-right: auto;
                 width: 70%;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.3s;
 }
+
+.bookstoreimage:hover {opacity: 0.7;}
+
 .bestsellerimage{
   display: block;
-                /* margin-left: auto;
-                margin-right: auto; */
                 width: 40%;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.3s;
 }
+
+.bestsellerimage:hover {opacity: 0.7;}
+
 .chandlerbingimage{
   display: block;
-                /* margin-left: auto;
-                margin-right: auto; */
                 width: 40%;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.3s;
 }
+
+.chandlerbingimage:hover {opacity: 0.7;}
 
 /* styling headers */
 
